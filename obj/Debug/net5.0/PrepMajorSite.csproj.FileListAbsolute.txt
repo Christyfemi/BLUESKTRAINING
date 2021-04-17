@@ -1,0 +1,5 @@
+C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\obj\Debug\net5.0\PrepMajorSite.csprojAssemblyReference.cache
+C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\obj\Debug\net5.0\PrepMajorSite.GeneratedMSBuildEditorConfig.editorconfig
+C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\obj\Debug\net5.0\PrepMajorSite.AssemblyInfoInputs.cache
+C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\obj\Debug\net5.0\PrepMajorSite.AssemblyInfo.cs
+C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\obj\Debug\net5.0\PrepMajorSite.csproj.CoreCompileInputs.cache
