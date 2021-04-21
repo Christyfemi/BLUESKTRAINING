@@ -1,6 +1,7 @@
 ﻿
 using OpenQA.Selenium;
 using PrepMajorSite.Hooks;
+using System;
 using System.Threading;
 
 namespace PrepMajorSite.PageObject
@@ -26,56 +27,57 @@ namespace PrepMajorSite.PageObject
         public NewInstructorPage()
         {
 
-            driver = WebHook.driver;
+         driver = WebHook.driver;
 
         }
 
         public void ClickOnInstructor()
         {
 
-            driver.FindElement(clickInstructor).Click();
+         driver.FindElement(clickInstructor).Click();
 
         }
         public void EnterOnUsername(string username)
         {
 
-            driver.FindElement(enterUsername).SendKeys(username);
+         driver.FindElement(enterUsername).SendKeys(username);
 
         }
         public void EnterOnEmail(string email)
         {
 
-            driver.FindElement(enterEmail).SendKeys(email);
+         driver.FindElement(enterEmail).SendKeys(email);
 
         }
         public void EnterOnPassword(string password)
         {
 
-            driver.FindElement(enterPassword).SendKeys(password);
+         driver.FindElement(enterPassword).SendKeys(password);
 
         }
         public void ConfirmOnPassword(string pass)
         {
 
-            driver.FindElement(confirmPassword).SendKeys(pass);
+         driver.FindElement(confirmPassword).SendKeys(pass);
 
         }
 
         public void CheckOnBox()
         {
 
-            driver.FindElement(checkBox).Click();
+         driver.FindElement(checkBox).Click();
 
         }
         public void RegisterOnBox()
         {
 
-            driver.FindElement(registerBox).Click();
+         driver.FindElement(registerBox).Click();
 
         }
         public void GmailAddress()
         {
-            Thread.Sleep(3000);
+           
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
             driver.FindElement(gmailField).SendKeys("femiadekomaya20@gmail.com");
 
         }
@@ -83,40 +85,44 @@ namespace PrepMajorSite.PageObject
         public void NextButtonClick()
         {
 
-            driver.FindElement(nextButton).Click();
+         driver.FindElement(nextButton).Click();
 
         }
 
         public void PasswordLogin()
         {
-            Thread.Sleep(3000);
-            driver.FindElement(passwordField).SendKeys("Samantha13112012?");
+           
+         driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+         driver.FindElement(passwordField).SendKeys("Samantha13112012?");
 
         }
         public void NextButtonToclick()
         {
 
-            driver.FindElement(nextButtonBox).Click();
+         driver.FindElement(nextButtonBox).Click();
 
         }
         public void ClickGmail()
         {
-            Thread.Sleep(3000);
-            driver.FindElement(clickGmailLink).Click();
+            
+         driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+         driver.FindElement(clickGmailLink).Click();
 
         }
 
         public string ErrorMessageEmail()
         {
-            Thread.Sleep(3000);
-            return driver.FindElement(emailInUseError).Text;
+          
+        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+        return driver.FindElement(emailInUseError).Text;
 
         }
 
         public string EmailAlreadyInUse()
         {
-            Thread.Sleep(3000);
-            return driver.FindElement(emailAlreadyUse).Text;
+          
+        driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+        return driver.FindElement(emailAlreadyUse).Text;
         }
 
 
