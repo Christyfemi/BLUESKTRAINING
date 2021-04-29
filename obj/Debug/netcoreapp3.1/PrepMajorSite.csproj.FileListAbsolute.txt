@@ -249,6 +249,7 @@ C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\bin\Debug\netcoreapp3.1\zh-Hant\
 C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
 C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\obj\Debug\netcoreapp3.1\PrepMajorSite.csprojAssemblyReference.cache
 C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\obj\Debug\netcoreapp3.1\PrepMajorSite.AssemblyInfoInputs.cache
 C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\obj\Debug\netcoreapp3.1\PrepMajorSite.AssemblyInfo.cs
 C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\obj\Debug\netcoreapp3.1\PrepMajorSite.csproj.CoreCompileInputs.cache
@@ -256,4 +257,3 @@ C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\obj\Debug\netcoreapp3.1\PrepMajo
 C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\obj\Debug\netcoreapp3.1\PrepMajorSite.dll
 C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\obj\Debug\netcoreapp3.1\PrepMajorSite.pdb
 C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\obj\Debug\netcoreapp3.1\PrepMajorSite.genruntimeconfig.cache
-C:\PrepMajorProject\PrepMajorSite\PrepMajorSite\obj\Debug\netcoreapp3.1\PrepMajorSite.csprojAssemblyReference.cache

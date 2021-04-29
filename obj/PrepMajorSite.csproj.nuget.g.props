@@ -22,6 +22,7 @@
     <Import Project="$(NuGetPackageRoot)specrun.runner\3.7.3\build\SpecRun.Runner.props" Condition="Exists('$(NuGetPackageRoot)specrun.runner\3.7.3\build\SpecRun.Runner.props')" />
     <Import Project="$(NuGetPackageRoot)specflow.tools.msbuild.generation\3.7.13\build\SpecFlow.Tools.MsBuild.Generation.props" Condition="Exists('$(NuGetPackageRoot)specflow.tools.msbuild.generation\3.7.13\build\SpecFlow.Tools.MsBuild.Generation.props')" />
     <Import Project="$(NuGetPackageRoot)specrun.specflow.3-7-0\3.7.3\build\SpecRun.SpecFlow.3-7-0.props" Condition="Exists('$(NuGetPackageRoot)specrun.specflow.3-7-0\3.7.3\build\SpecRun.SpecFlow.3-7-0.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.netcore.app\2.1.0\build\netcoreapp2.1\Microsoft.NETCore.App.props" Condition="Exists('$(NuGetPackageRoot)microsoft.netcore.app\2.1.0\build\netcoreapp2.1\Microsoft.NETCore.App.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgWebDriver_ChromeDriver_win32 Condition=" '$(PkgWebDriver_ChromeDriver_win32)' == '' ">C:\Users\Christy\.nuget\packages\webdriver.chromedriver.win32\90.0.4430.24</PkgWebDriver_ChromeDriver_win32>
