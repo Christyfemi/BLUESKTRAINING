@@ -4,6 +4,7 @@ I want to enter my personal details
 So that I can create an account
 
 
+
 @newinstructor
 Scenario: Create an Account for New Instructor with correct email, username and password
 	Given that I navigate www.prepmajor.com
@@ -42,7 +43,9 @@ Scenario Outline: Create an Account for New Instructor with Already used email a
 	Examples: 
     | username | email                  | password    | pass       | 
     | Ope      | femiadekomaya@yahoo.com| Samantha12? | Samantha12?|  
-    
+	| Olu      | femiadekomaya@yahoo.com| Samantha123? | Samantha123?|  
+     | ADE     | femiadekomaya123@yahoo.com| Samantha12? | Samantha12?|  
+	 | ADE123     | femiadekomaya123@yahoo.com| Samantha12? | Samantha12?|  
 
 @Feature3
 Scenario Outline: user tried to register with Invalid Password

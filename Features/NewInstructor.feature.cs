@@ -87,7 +87,7 @@ namespace PrepMajorSite.Features
             argumentsOfScenario.Add("password", password);
             argumentsOfScenario.Add("pass", pass);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create an Account for New Instructor with correct email, username and password", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 8
+#line 9
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -107,46 +107,46 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 9
+#line 10
  testRunner.Given("that I navigate www.prepmajor.com", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 10
+#line 11
  testRunner.And("I click on button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 11
+#line 12
  testRunner.And(string.Format("I create \"{0}\" in the username field", username), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 12
+#line 13
   testRunner.And(string.Format("I fill in my \"{0}\" address", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 13
+#line 14
  testRunner.And(string.Format("I create \"{0}\"", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 14
+#line 15
  testRunner.And(string.Format("I confirm my \"{0}\"", pass), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 15
+#line 16
  testRunner.And("I checked the use of terms box", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 16
+#line 17
  testRunner.And("I click on the register button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 17
+#line 18
  testRunner.And("I navigate to my www.gmail.com", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 18
+#line 19
  testRunner.And("I enter my gmail address", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 19
+#line 20
  testRunner.And("I click next button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 20
+#line 21
  testRunner.And("I enter my password", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 21
+#line 22
  testRunner.And("Iclick next button again", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 22
+#line 23
  testRunner.Then("I verify by clicking the verification link", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -155,10 +155,10 @@ this.ScenarioInitialize(scenarioInfo);
         
         [TechTalk.SpecRun.ScenarioAttribute("Create an Account for New Instructor with correct email, username and password, F" +
             "emi12", new string[] {
-                "newinstructor"}, SourceLine=25)]
+                "newinstructor"}, SourceLine=26)]
         public virtual void CreateAnAccountForNewInstructorWithCorrectEmailUsernameAndPassword_Femi12()
         {
-#line 8
+#line 9
 this.CreateAnAccountForNewInstructorWithCorrectEmailUsernameAndPassword("Femi12", "femiadekomaya20+5@gmail.com", "Joshua12?", "Joshua12?", ((string[])(null)));
 #line hidden
         }
@@ -178,7 +178,7 @@ this.CreateAnAccountForNewInstructorWithCorrectEmailUsernameAndPassword("Femi12"
             argumentsOfScenario.Add("password", password);
             argumentsOfScenario.Add("pass", pass);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Create an Account for New Instructor with Already used email address", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 31
+#line 32
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -198,31 +198,31 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 32
+#line 33
     testRunner.Given("that I navigate www.prepmajor.com", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 33
+#line 34
  testRunner.And("I click on button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 34
+#line 35
  testRunner.And(string.Format("I create \"{0}\" in the username field", username), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 35
+#line 36
  testRunner.And(string.Format("I fill in my \"{0}\" address", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 36
+#line 37
  testRunner.And(string.Format("I create \"{0}\"", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 37
+#line 38
  testRunner.And(string.Format("I confirm my \"{0}\"", pass), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 38
+#line 39
  testRunner.And("I checked the use of terms box", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 39
+#line 40
  testRunner.And("I click on the register button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 40
+#line 41
  testRunner.Then("The Error \"Sorry, that email address is already used!\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -230,11 +230,29 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("Create an Account for New Instructor with Already used email address, Ope", new string[] {
-                "Feature2"}, SourceLine=43)]
+                "Feature2"}, SourceLine=44)]
         public virtual void CreateAnAccountForNewInstructorWithAlreadyUsedEmailAddress_Ope()
         {
-#line 31
+#line 32
 this.CreateAnAccountForNewInstructorWithAlreadyUsedEmailAddress("Ope", "femiadekomaya@yahoo.com", "Samantha12?", "Samantha12?", ((string[])(null)));
+#line hidden
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("Create an Account for New Instructor with Already used email address, Olu", new string[] {
+                "Feature2"}, SourceLine=44)]
+        public virtual void CreateAnAccountForNewInstructorWithAlreadyUsedEmailAddress_Olu()
+        {
+#line 32
+this.CreateAnAccountForNewInstructorWithAlreadyUsedEmailAddress("Olu", "femiadekomaya@yahoo.com", "Samantha123?", "Samantha123?", ((string[])(null)));
+#line hidden
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("Create an Account for New Instructor with Already used email address, ADE", new string[] {
+                "Feature2"}, SourceLine=44)]
+        public virtual void CreateAnAccountForNewInstructorWithAlreadyUsedEmailAddress_ADE()
+        {
+#line 32
+this.CreateAnAccountForNewInstructorWithAlreadyUsedEmailAddress("ADE", "femiadekomaya123@yahoo.com", "Samantha12?", "Samantha12?", ((string[])(null)));
 #line hidden
         }
         
@@ -253,7 +271,7 @@ this.CreateAnAccountForNewInstructorWithAlreadyUsedEmailAddress("Ope", "femiadek
             argumentsOfScenario.Add("password", password);
             argumentsOfScenario.Add("pass", pass);
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("user tried to register with Invalid Password", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
-#line 48
+#line 50
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -273,31 +291,31 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
-#line 49
+#line 51
     testRunner.Given("that I navigate www.prepmajor.com", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-#line 50
+#line 52
  testRunner.And("I click on button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 51
+#line 53
  testRunner.And(string.Format("I create \"{0}\" in the username field", username), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 52
+#line 54
  testRunner.And(string.Format("I fill in my \"{0}\" address", email), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 53
+#line 55
  testRunner.And(string.Format("I create \"{0}\"", password), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 54
+#line 56
  testRunner.And(string.Format("I confirm my \"{0}\"", pass), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 55
+#line 57
  testRunner.And("I checked the use of terms box", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 56
+#line 58
  testRunner.And("I click on the register button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
-#line 57
+#line 59
  testRunner.Then("the error message should display \"Password must have at least 8 characters\"", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
@@ -305,10 +323,10 @@ this.ScenarioInitialize(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("user tried to register with Invalid Password, Femi", new string[] {
-                "Feature3"}, SourceLine=60)]
+                "Feature3"}, SourceLine=62)]
         public virtual void UserTriedToRegisterWithInvalidPassword_Femi()
         {
-#line 48
+#line 50
 this.UserTriedToRegisterWithInvalidPassword("Femi", "femiadekomaya@yahoo.com", "Saman", "Saman", ((string[])(null)));
 #line hidden
         }
